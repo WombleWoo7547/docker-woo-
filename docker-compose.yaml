@@ -1,0 +1,7 @@
+services: 
+  web:
+    build: .
+    depends-on:
+      node
+  node:
+    image: node:14
